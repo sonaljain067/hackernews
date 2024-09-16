@@ -60,24 +60,6 @@ The server will be running at http://127.0.0.1:8000.
 
 The frontend will be running at http://localhost:3000.
 
-
-## Docker Setup
-### Prerequisites
-- Docker
-
-### Building and Running Containers
-1. Build the Docker images:
-    ```bash
-    docker-compose build
-    ```
-
-2. Start the containers:
-    ```bash
-    docker-compose up
-    ```
-
-The backend and frontend will be accessible at their respective ports as configured in the docker-compose.yml file.
-
 ## Testing
 ### Backend
 1. Navigate to the backend directory:
